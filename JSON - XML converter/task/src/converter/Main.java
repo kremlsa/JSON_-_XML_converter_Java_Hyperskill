@@ -11,8 +11,11 @@ public class Main {
         FileUtil.saveToFile(text);
         if (text.startsWith("{")) {
             JParser jp = new JParser(text);
-            Element element = jp.go();
-            System.out.println(new ToXml(element).go());
+            //jp.goRec();
+            jp.goTestRec(text);
+            //Element element = jp.go();
+            //System.out.println(new ToXml(element).go());
+
         } else {
             XParser xp = new XParser(text);
             xp.goRec();

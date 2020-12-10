@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/JSON - XML converter/task" />
+            <option value="$PROJECT_DIR$/Problems/How many type variables defined" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
